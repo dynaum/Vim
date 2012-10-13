@@ -1,5 +1,8 @@
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+
 set nocompatible
-set backspace=ident,eol,start
 set history=1000
 set showcmd    "show incomplete cmds down the bottom
 set showmode   "show current mode down the bottom
@@ -13,7 +16,6 @@ set visualbell t_vb=
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-set autoident
 
 "folding settings
 set foldmethod=indent   "fold based on indent
@@ -32,7 +34,7 @@ set nowrap
 set nu
 set ts=2 sts=2 sw=2 expandtab
 set guifont=Monaco\ Powerline
-set g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols = 'fancy'
 colorscheme busybee
 ab rdb require 'ruby-debug';debugger
 let mapleader = ","
@@ -68,10 +70,6 @@ function! SetCursorPosition()
     endif
   end
 endfunction
-
-call pathogen#infect()
-syntax on
-filetype plugin indent on
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
