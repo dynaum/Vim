@@ -33,7 +33,7 @@ set hidden
 set nowrap
 set nu
 set ts=2 sts=2 sw=2 expandtab
-set guifont=Monaco\ Powerline
+set guifont=Menlo\ For\ Powerline
 let g:Powerline_symbols = 'fancy'
 colorscheme busybee
 ab rdb require 'ruby-debug';debugger
@@ -41,6 +41,9 @@ let mapleader = ","
 augroup filetypedetect
   autocmd BufRead,BufNewFile *.prawn set filetype=ruby
 augroup END
+
+" Agradeça ao Gabriel depois
+nnoremap ; :
 
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -152,3 +155,5 @@ function! <SID>StripTrailingWhitespaces()
   let @/=_s
   call cursor(l,c)
 endfunction
+
+autocmd BufRead,BufNewFile *.tokamak set filetype=ruby
