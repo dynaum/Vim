@@ -99,6 +99,10 @@ endfunction
 " == KEYBINDINGS ===================================================
 "key mapping for vimgrep result navigation
 
+map <leader>rf :Dispatch bin/rspec %<CR>
+map <leader>ra :Dispatch bin/rspec spec<CR>
+map <leader>bi :Dispatch bundle install --binstubs<CR>
+
 " Tab mappings.
 map <leader>te :tabedit
 map <leader>tc :tabclose<cr>
