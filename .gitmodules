@@ -43,3 +43,6 @@
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch.git
+[submodule "bundle/vim-cloujure"]
+	path = bundle/vim-cloujure
+	url = https://github.com/vim-scripts/VimClojure.git
