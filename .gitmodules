@@ -46,3 +46,6 @@
 [submodule "bundle/vim-cloujure"]
 	path = bundle/vim-cloujure
 	url = https://github.com/vim-scripts/VimClojure.git
+[submodule "bundle/zoom_in"]
+	path = bundle/zoom_in
+	url = https://github.com/vim-scripts/ZoomWin.git
