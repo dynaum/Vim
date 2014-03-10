@@ -49,3 +49,6 @@
 [submodule "bundle/zoom_in"]
 	path = bundle/zoom_in
 	url = https://github.com/vim-scripts/ZoomWin.git
+[submodule "bundle/puppet-syntax"]
+	path = bundle/puppet-syntax
+	url = https://github.com/puppetlabs/puppet-syntax-vim.git
