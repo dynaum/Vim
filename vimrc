@@ -33,10 +33,9 @@ set hidden
 set nowrap
 set nu
 set ts=2 sts=2 sw=2 expandtab
-set guifont=Menlo\ For\ Powerline
-let g:Powerline_symbols = 'fancy'
 colorscheme busybee
 ab rdb require 'ruby-debug';debugger
+ab pry require 'pry'; binding.pry
 let mapleader = ","
 augroup filetypedetect
   autocmd BufRead,BufNewFile *.prawn set filetype=ruby
