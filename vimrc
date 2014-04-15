@@ -162,3 +162,18 @@ endfunction
 autocmd BufRead,BufNewFile *.tokamak set filetype=ruby
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:tmuxline_preset = {
+      \'a'    : '#S',
+      \'c'    : ['#(whoami)', '#(uptime | cud -d " " -f 1,2,3)'],
+      \'win'  : '#I #W',
+      \'cwin' : '#I #W',
+      \'x'    : '#(~/bin/battery)',
+      \'y'    : '%R %a %Y',
+      \'z'    : '#H'}
+
