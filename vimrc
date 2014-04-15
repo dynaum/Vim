@@ -160,3 +160,5 @@ function! <SID>StripTrailingWhitespaces()
 endfunction
 
 autocmd BufRead,BufNewFile *.tokamak set filetype=ruby
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
