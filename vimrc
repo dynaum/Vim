@@ -2,6 +2,7 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
+set backupdir=~/tmp
 set nocompatible
 set history=1000
 set showcmd    "show incomplete cmds down the bottom
