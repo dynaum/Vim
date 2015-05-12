@@ -17,6 +17,8 @@ set visualbell t_vb=
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set nobackup
+set nowritebackup
 
 "folding settings
 set foldmethod=indent   "fold based on indent
