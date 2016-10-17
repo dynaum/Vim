@@ -85,3 +85,6 @@
 [submodule "bundle/vim-es6"]
 	path = bundle/vim-es6
 	url = https://github.com/isRuslan/vim-es6.git
+[submodule "vim-pug"]
+	path = vim-pug
+	url = git://github.com/digitaltoad/vim-pug.git
