@@ -3,6 +3,7 @@ syntax on
 filetype plugin indent on
 
 set backupdir=~/tmp
+set directory=~/tmp
 set nocompatible
 set history=1000
 set showcmd    "show incomplete cmds down the bottom
@@ -19,6 +20,7 @@ set softtabstop=2
 set expandtab
 set nobackup
 set nowritebackup
+set noswapfile
 
 "folding settings
 set foldmethod=indent   "fold based on indent
@@ -36,9 +38,13 @@ set hidden
 set nowrap
 set nu
 set ts=2 sts=2 sw=2 expandtab
+set colorcolumn=80
 colorscheme busybee
+highlight ColorColumn ctermbg=0 guibg=lightgrey
+
 ab rdb require 'ruby-debug';debugger
 ab pry require 'pry'; binding.pry
+
 let mapleader = ","
 augroup filetypedetect
   autocmd BufRead,BufNewFile *.prawn set filetype=ruby
