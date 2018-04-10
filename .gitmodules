@@ -88,3 +88,6 @@
 [submodule "vim-pug"]
 	path = bundle/vim-pug
 	url = git://github.com/digitaltoad/vim-pug.git
+[submodule "bundle/vim-multiple-cursos"]
+	path = bundle/vim-multiple-cursos
+	url = git@github.com:terryma/vim-multiple-cursors.git
