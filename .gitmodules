@@ -91,3 +91,6 @@
 [submodule "bundle/vim-multiple-cursos"]
 	path = bundle/vim-multiple-cursos
 	url = git@github.com:terryma/vim-multiple-cursors.git
+[submodule "bundle/vim-mix-format"]
+	path = bundle/vim-mix-format
+	url = git@github.com:mhinz/vim-mix-format.git
