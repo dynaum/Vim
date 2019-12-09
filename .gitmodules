@@ -94,3 +94,25 @@
 [submodule "bundle/vim-mix-format"]
 	path = bundle/vim-mix-format
 	url = git@github.com:mhinz/vim-mix-format.git
+[submodule "bundle/vim-hug-neovim-rpc"]
+	path = bundle/vim-hug-neovim-rpc
+	url = git@github.com:roxma/vim-hug-neovim-rpc.git
+[submodule "bundle/nvim-yarp"]
+	path = bundle/nvim-yarp
+	url = git@github.com:roxma/nvim-yarp.git
+[submodule "bundle/deoplete"]
+	path = bundle/deoplete
+	url = git@github.com:Shougo/deoplete.nvim.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = git@github.com:ycm-core/YouCompleteMe.git
+[submodule "bundle/alchemist"]
+	path = bundle/alchemist
+	url = git@github.com:slashmili/alchemist.vim.git
+[submodule "bundle/coc.nvim"]
+	path = bundle/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git
+	branch = release
+[submodule "bundle/kotlin-vim"]
+	path = bundle/kotlin-vim
+	url = git@github.com:udalov/kotlin-vim.git
