@@ -38,8 +38,8 @@ set hidden
 set nowrap
 set nu
 set ts=2 sts=2 sw=2 expandtab
-set colorcolumn=80
-colorscheme busybee
+set colorcolumn=120
+colorscheme Dracula
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 ab rdb require 'ruby-debug';debugger
@@ -177,7 +177,7 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)|node_modules|target|_build|deps$',
-  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'file': '\v\.(exe|so|dll|pyc)$',
   \ }
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let g:tmuxline_preset = {
@@ -267,3 +267,6 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+" Git blame
+nnoremap <Leader>b :<C-u>call gitblame#echo()<CR>

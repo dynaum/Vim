@@ -4,9 +4,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git://github.com/tpope/vim-markdown.git
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
 [submodule "bundle/zencoding-vim"]
 	path = bundle/zencoding-vim
 	url = git://github.com/mattn/zencoding-vim.git
@@ -116,3 +113,12 @@
 [submodule "bundle/kotlin-vim"]
 	path = bundle/kotlin-vim
 	url = git@github.com:udalov/kotlin-vim.git
+[submodule "bundle/dracula"]
+	path = bundle/dracula
+	url = git@github.com:dracula/vim.git
+[submodule "bundle/git-blame"]
+	path = bundle/git-blame
+	url = git@github.com:zivyangll/git-blame.vim.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
