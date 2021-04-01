@@ -39,7 +39,8 @@ set nowrap
 set nu
 set ts=2 sts=2 sw=2 expandtab
 set colorcolumn=120
-colorscheme Dracula
+syntax enable
+colorscheme dracula
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 ab rdb require 'ruby-debug';debugger
